@@ -30,13 +30,13 @@ CREATE TABLE IF NOT EXISTS `diccionario` (
 -- Dumping data for table diccionario.diccionario: ~7 rows (approximately)
 /*!40000 ALTER TABLE `diccionario` DISABLE KEYS */;
 INSERT INTO `diccionario` (`id`, `palabra`, `significado`) VALUES
-	(12, 'Ahuevao', 'persona que comprende o capta las cosas más lento que el promedio'),
-	(13, 'Chuzo', 'interjección que utilizamos para verbalizar algún sentimiento o impresión.'),
-	(14, 'Chambon', 'persona que no tiene muchas habilidades para desempeñarse en alguna actividad'),
-	(15, 'Bulto', 'Un bulto es una persona que es mala, realmente mala en lo que se desempeña.'),
-	(16, 'Birria', 'afición excesiva por alguna actividad lúdica.'),
-	(17, 'Tongo', 'A los agentes de la fuerza del orden se les llama tongos'),
-	(18, 'Rakataka', 'es visto como sinónimo de: vulgar, mal hablada, de problemática, no educación');
+	(1, 'Ahuevao', 'persona que comprende o capta las cosas más lento que el promedio'),
+	(2, 'Chuzo', 'interjección que utilizamos para verbalizar algún sentimiento o impresión.'),
+	(3, 'Chambon', 'persona que no tiene muchas habilidades para desempeñarse en alguna actividad'),
+	(4, 'Bulto', 'Un bulto es una persona que es mala, realmente mala en lo que se desempeña.'),
+	(5, 'Birria', 'afición excesiva por alguna actividad lúdica.'),
+	(6, 'Tongo', 'A los agentes de la fuerza del orden se les llama tongos'),
+	(7, 'Rakataka', 'es visto como sinónimo de: vulgar, mal hablada, de problemática, no educación');
 /*!40000 ALTER TABLE `diccionario` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
